@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Sekwenator.MainWindow"
+        Width="600"
+        Height="450"
+        Title="Sekwenator DNA">
+
+    <StackPanel Margin="20" Spacing="10">
+
+        <TextBlock Text="Sekwenator DNA"
+                   FontSize="24"
+                   FontWeight="Bold" />
+
+        <TextBlock Text="Wprowadz sekwencje DNA:" />
+
+        <TextBox Name="InputTextBox"
+                 MinHeight="100"
+                 TextWrapping="Wrap" />
+
+        <Button Content="Zlicz sekwencje długosci 4"
+                Click="CountButton_Click" />
+
+        <TextBlock Text="Wynik:"
+                   FontWeight="Bold" />
+
+        <ScrollViewer Height="200">
+            <TextBlock Name="ResultTextBlock"
+                       FontFamily="Consolas"
+                       TextWrapping="Wrap" />
+        </ScrollViewer>
+
+    </StackPanel>
+</Window>
