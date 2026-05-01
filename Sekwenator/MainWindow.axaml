@@ -3,7 +3,7 @@
         x:Class="Sekwenator.MainWindow"
         Width="600"
         Height="450"
-        Title="Sekwenator DNA">
+        Title="Sekwenator DNA"> 
 
     <StackPanel Margin="20" Spacing="10">
 
